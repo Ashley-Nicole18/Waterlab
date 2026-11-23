@@ -1,0 +1,12 @@
+{
+  "name": "waterlab",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @waterlab/web",
+    "build:web": "npm run build --workspace @waterlab/web"
+  }
+}
