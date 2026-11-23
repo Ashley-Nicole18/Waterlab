@@ -7,6 +7,9 @@
   ],
   "scripts": {
     "dev:web": "npm run dev --workspace @waterlab/web",
-    "build:web": "npm run build --workspace @waterlab/web"
+    "build:web": "npm run build --workspace @waterlab/web",
+    "dev:api": "npm run dev --workspace @waterlab/api",
+    "build:api": "npm run build --workspace @waterlab/api",
+    "typecheck:api": "npm run typecheck --workspace @waterlab/api"
   }
 }
